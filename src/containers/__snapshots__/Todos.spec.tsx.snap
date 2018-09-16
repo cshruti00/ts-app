@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo connected Component when todo is passed should render Todo Component 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+    />
+    <button
+      type="submit"
+    >
+      +
+    </button>
+  </form>
+  <ul>
+    <li>
+      sample
+    </li>
+  </ul>
+</div>
+`;

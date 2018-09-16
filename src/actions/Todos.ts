@@ -1,4 +1,4 @@
-import {ActionTypes} from "./Todo";
+import {ActionTypes} from "../types/TodoActionType";
 import TodoType from "../types/TodoType";
 
 export interface AddTodoAction {

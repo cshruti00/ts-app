@@ -16,7 +16,6 @@ class Todo extends React.Component<TodoPropType, TodoStateType> {
         this.state = {
             title: "",
         };
-
         this.onChangeHandler = this.onChangeHandler.bind(this);
         this.onSubmitHandler = this.onSubmitHandler.bind(this);
     }

@@ -1,6 +1,6 @@
 import TodoType from "../types/TodoType";
 import {Action} from "../actions/Todos";
-import {ActionTypes} from "../actions/Todo";
+import {ActionTypes} from "../types/TodoActionType";
 
 export default (state: TodoType[] = [], action: Action) => {
     switch (action.type) {
