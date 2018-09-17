@@ -1,5 +1,5 @@
-import TodoReducer from '../reducers/Todos';
-import {ActionTypes} from "../types/TodoActionType";
+import TodoReducer from './TodoReducer';
+import {ActionTypes} from "../types/ActionType";
 import TodoType from "../types/TodoType";
 import {Action} from "../actions/Todos";
 

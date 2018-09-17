@@ -1,5 +1,6 @@
-import {ActionTypes} from "../types/TodoActionType";
+import {ActionTypes} from "../types/ActionType";
 import TodoType from "../types/TodoType";
+import {ThemeAction} from "./ThemeAction";
 
 export interface AddTodoAction {
     type: ActionTypes.ADD_TODO,
@@ -15,5 +16,4 @@ export function addTodo(title: string): AddTodoAction {
     }
 }
 
-
-export type Action = AddTodoAction;
+export type Action = AddTodoAction | ThemeAction;

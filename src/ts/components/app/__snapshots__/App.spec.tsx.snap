@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component when app is passed should render App Component 1`] = `
+<div
+  className="App theme-sgp"
+>
+  <header
+    className="App App-header"
+  >
+    <img
+      alt="logo"
+      className="App App-logo"
+      src={undefined}
+    />
+    <h1
+      className="App App-title"
+    >
+      Welcome to React
+    </h1>
+  </header>
+  <div
+    className="themes"
+  >
+    <form
+      onChange={[Function]}
+    >
+      <select
+        id="theme"
+        name="themes"
+      >
+        <option
+          value="dark"
+        >
+          Singapore
+        </option>
+        <option
+          value="light"
+        >
+          India
+        </option>
+      </select>
+    </form>
+  </div>
+  <div
+    className="todo-form"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        onChange={[Function]}
+      />
+      <button
+        type="submit"
+      >
+        +
+      </button>
+    </form>
+    <ul>
+      <li>
+        sample
+      </li>
+    </ul>
+  </div>
+</div>
+`;

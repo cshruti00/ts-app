@@ -1,5 +1,6 @@
 import * as React from 'react';
 import TodoType from "../../types/TodoType";
+import './Todo.scss';
 
 export interface TodoStateType {
     title: string,
@@ -33,7 +34,7 @@ class Todo extends React.Component<TodoPropType, TodoStateType> {
     }
 
     render() {
-        return (<div>
+        return (<div className="todo-form">
             <form onSubmit={this.onSubmitHandler}>
                 <input onChange={this.onChangeHandler}/>
                 <button type="submit">+</button>

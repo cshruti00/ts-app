@@ -1,7 +1,7 @@
 import {MockStore} from 'redux-mock-store';
 import {generateMockStore} from "../mockStore";
 import {addTodo} from "./Todos";
-import {ActionTypes} from "../types/TodoActionType";
+import {ActionTypes} from "../types/ActionType";
 
 describe('Test Action', () => {
     let store: MockStore<{}>;
