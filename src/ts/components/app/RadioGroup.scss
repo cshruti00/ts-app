@@ -1,0 +1,17 @@
+input{
+  position: relative;
+  z-index: 1;
+}
+
+input::after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: -91px;
+}
+
+form {
+  color: grey;
+}

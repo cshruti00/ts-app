@@ -62,5 +62,40 @@ exports[`App component when app is passed should render App Component 1`] = `
       </li>
     </ul>
   </div>
+  <form
+    onClick={[Function]}
+  >
+    <div>
+      <input
+        defaultChecked={true}
+        name="set1"
+        type="radio"
+        value="something 1"
+      />
+      <label>
+        something 1 
+      </label>
+    </div>
+    <div>
+      <input
+        name="set1"
+        type="radio"
+        value="something 2"
+      />
+      <label>
+        something 2 
+      </label>
+    </div>
+    <div>
+      <input
+        name="set1"
+        type="radio"
+        value="something 3"
+      />
+      <label>
+        something 3 
+      </label>
+    </div>
+  </form>
 </div>
 `;

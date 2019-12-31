@@ -5,9 +5,10 @@ import logo from '../../../assets/images/logo.svg';
 import Todos from "../../../ts/containers/todos/Todos";
 import Theme from "../../../ts/containers/themes/ThemeContainer";
 import {connect} from "react-redux";
+import RadioGroup from "./RadioGroup";
 
 class App extends React.Component<any, any> {
-    constructor(props: any){
+    constructor(props: any) {
         super(props);
     }
 
@@ -20,6 +21,7 @@ class App extends React.Component<any, any> {
                 </header>
                 <Theme/>
                 <Todos/>
+                <RadioGroup/>
             </div>
 
         );
@@ -32,4 +34,4 @@ const mapStateToProps = (state: any) => {
     }
 };
 
-export default connect(mapStateToProps,undefined)(App);
+export default connect(mapStateToProps, undefined)(App);
